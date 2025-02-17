@@ -1,1 +1,31 @@
-/* Start coding here */
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+    margin: 0;
+}
+
+
+.content-box {
+    background-color: hsla(0, 50%, 100%, 0.5);
+    padding: 20px;
+    width: 50%;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}
