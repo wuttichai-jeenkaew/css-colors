@@ -1,1 +1,44 @@
 /* Start coding here */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: linear-gradient(135deg, 
+         hsl(0, 100%, 70%) 0%,
+         hsl(240, 100%, 70%) 100%
+     );
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding: 20px;
+ }
+
+ .glass-card {
+     background: hsla(0, 50%, 100%, 0.5);
+     backdrop-filter: blur(10px);
+     -webkit-backdrop-filter: blur(10px);
+     border-radius: 15px;
+     border: 1px solid rgba(255, 255, 255, 0.2);
+     padding: 30px;
+     max-width: 600px;
+     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+ }
+
+ .title {
+     color: hsl(0, 100%, 70%);
+     text-align: center;
+     margin-bottom: 20px;
+     font-size: 24px;
+     font-weight: 600;
+ }
+
+ .content {
+     color: hsl(240, 100%, 70%);
+     line-height: 1.6;
+     text-align: justify;
+ }
